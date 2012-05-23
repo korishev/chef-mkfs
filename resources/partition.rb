@@ -20,7 +20,7 @@ def initalize(*args)
   @action = :create
 end
 
-action :create
+actions :create
 
 attribute :name, :kind_of => String, :name_attribute => true
 attribute :device, :kind_of => String, :required

@@ -20,7 +20,7 @@ def initalize(*args)
   @action = :create
 end
 
-action :create, :delete
+actions :create, :delete
 
 attribute :name, :kind_of => String, :name_attribute => true
 attribute :fs_type, :kind_of => String, :required, :default => "ext3"
